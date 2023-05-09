@@ -1,13 +1,21 @@
-# Author:		Michael Nye
-# Date:         05-09-2023
-# Script Name:  Prepare-MimDomain
-# Version:      1.0
-# Description:  Script to create service accounts, groups, and set SPNs for MIM to prepare for installation.
-# Change Log:	v1.0:	Initial Release
+<#
+    .SYNOPSIS
+    Script to create service accounts, groups, and set SPNs in AD for MIM to prepare for installation.
 
-# ------------------- NOTES -----------------------------------------------
-# 
+    .DESCRIPTION
+    Script to create service accounts, groups, and set SPNs in AD for MIM to prepare for installation.
 
+    .EXAMPLE
+
+    .NOTES
+    #####################################################################################
+    # Author: Michael Nye - https://github.com/mnyethecyberguy                          #
+    # Project: Prepare-MimDomain - https://github.com/mnyethecyberguy/prepare-mimdomain #
+    # Module Dependencies: ActiveDirectory                                              #
+    # Permission level: Domain Admin                                                    #
+    # Powershell v5 or greater                                                          #
+    #####################################################################################
+#>
 # -------------------------------------------------------------------------
 
 # ------------------- IMPORT AD MODULE ------------------------------------
